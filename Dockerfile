@@ -4,4 +4,3 @@ RUN apt-get update && apt-get install -y \
     git
 WORKDIR /
 RUN pip install --extra-index-url https://testpypi.python.org/pypi vcf-annotation-tools
-
